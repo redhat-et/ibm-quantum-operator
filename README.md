@@ -1,1 +1,0 @@
-# ibm-quantum-operator
