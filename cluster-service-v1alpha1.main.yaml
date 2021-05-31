@@ -1,18 +1,23 @@
-apiVersion: operators.coreos.com/v1alpha1
-kind: ClusterServiceVersion
-metadata:
-  annotations:
-    alm-examples: |-
-      [
-        {
-          "apiVersion": "singhp11.io/v1",
-          "kind": "Ibmq",
-          "metadata": {
-            "name": "example-ibmq"
-          }
-        }
-      ]
-    capabilities: Basic Install
+<#,$,*.
+### *** ***
+#
+# *apiVersion: operators.coreos.com/v1alpha1
+# *kind: ClusterServiceVersion
+# *metadata:
+  # *annotations:
+    # *alm-examples: |-
+      # [
+        # {
+          # *apiVersion": "singhp11.io/v1",
+          # *find": "Ibmq",
+          # *metadata": {
+            # *name": "example-ibmq"
+          # }
+        # }
+      # ]
+	  #>
+	  
+# *capabilities: Basic Install
     categories: Application Runtime
     createdAt: 2020-008-28 22:25:53
     containerImage: quay.io/application/husky_parul/ibm-quantum-operator
